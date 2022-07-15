@@ -25,7 +25,6 @@ namespace Calculando_IR.Presentation
 
             clientTaxCalculator.TaxCalculation(annualValue, out double taxValue);
 
-
             screenPresentation.FinalMessage(taxValue);
         }
     }

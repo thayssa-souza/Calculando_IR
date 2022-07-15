@@ -19,7 +19,6 @@ namespace Calculando_IR.Presentation
             {
                 return true;
             }
-
         }
     }
 }

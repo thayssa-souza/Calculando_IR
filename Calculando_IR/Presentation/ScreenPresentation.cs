@@ -15,7 +15,6 @@ namespace Calculando_IR.Presentation
 
         public void ResquestInput()
         {
-
             Console.WriteLine("Digite seu rendimento anual: R$");
         }
 
