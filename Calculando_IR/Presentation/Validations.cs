@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace Calculando_IR.Presentation
 {
-    public class Validations : TaxCalculator
+    public class Validations
     {
         public static bool ValidValue(string answerValue, out double value)
         {

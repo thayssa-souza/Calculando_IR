@@ -18,6 +18,12 @@ namespace Calculando_IR.Presentation
             Console.WriteLine("Digite seu rendimento anual: R$");
         }
 
+        public void ErrorMessage()
+        {
+            Console.WriteLine("A calculadora aceita apenas números.");
+            Console.WriteLine("Reinicie o sistema e tente novamente.");
+        }
+
         public void FinalMessage(double taxValue)
         {
             Console.WriteLine($"Total de imposto a ser pago de acordo com a sua renda: R$ {taxValue}");
