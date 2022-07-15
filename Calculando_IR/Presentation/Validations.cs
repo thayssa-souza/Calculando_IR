@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculando_IR.Domain
+namespace Calculando_IR.Presentation
 {
     public class Validations : TaxCalculator
     {
@@ -19,6 +19,7 @@ namespace Calculando_IR.Domain
             {
                 return true;
             }
+
         }
     }
 }

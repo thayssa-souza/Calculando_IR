@@ -11,6 +11,10 @@ namespace Calculando_IR.Presentation
         public void WelcomeMessage()
         {
             Console.WriteLine("Seja bem-vindo a Calculadora de Imposto de Renda para Pessoas Físicas");
+        }
+
+        public void ResquestInput()
+        {
 
             Console.WriteLine("Digite seu rendimento anual: R$");
         }

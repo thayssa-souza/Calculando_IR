@@ -9,5 +9,6 @@ namespace Calculando_IR.Services
     public interface ITaxCalculator
     {
         double TaxCalculation(double value, out double totalTax);
+        
     }
 }

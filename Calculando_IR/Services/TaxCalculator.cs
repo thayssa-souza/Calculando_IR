@@ -37,6 +37,7 @@ namespace Calculando_IR.Services
                     break;
             }
             return totalTax;
+
         }
     }
 }

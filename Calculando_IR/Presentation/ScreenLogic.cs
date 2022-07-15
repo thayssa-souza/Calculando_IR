@@ -1,5 +1,4 @@
-﻿using Calculando_IR.Domain;
-using Calculando_IR.Services;
+﻿using Calculando_IR.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +17,7 @@ namespace Calculando_IR.Presentation
             ScreenPresentation screenPresentation = new ScreenPresentation();
             screenPresentation.WelcomeMessage();
 
+            screenPresentation.ResquestInput();
             string answerValue = Console.ReadLine();
             Validations.ValidValue(answerValue, out double annualValue);
 
@@ -27,14 +27,6 @@ namespace Calculando_IR.Presentation
 
 
             screenPresentation.FinalMessage(taxValue);
-
-            //bem-vindo
-            //solicitar valor
-            //guardar valor
-            //tratar valor
-            //passar valor para tax calculator
-            //retornar o valor já deduzido o imposto
-            //encerrar
         }
     }
 }
